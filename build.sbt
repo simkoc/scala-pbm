@@ -66,8 +66,8 @@ sonatypeProfileName := "de.halcony"
 // this is required for sonatype sync requirements
 ThisBuild / scmInfo := Some(
   ScmInfo(
-    url("https://github.com/simkoc/scala-argparse"),
-    "scm:git@github.com:simkoc/scala-argparse.git"
+    url("https://github.com/simkoc/scala-pbm"),
+    "scm:git@github.com:simkoc/scala-pbm.git"
   )
 )
 // this is required for sonatype sync requirements
@@ -82,7 +82,7 @@ ThisBuild / developers := List(
 // this is required for sonatype sync requirements
 ThisBuild / licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 // this is required for sonatype sync requirements
-ThisBuild / homepage := Some(url("https://github.com/simkoc/scala-argparse"))
+ThisBuild / homepage := Some(url("https://github.com/simkoc/scala-pbm"))
 
 
 // below is pretty much cargo cult/fuzzing....

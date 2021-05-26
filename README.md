@@ -6,7 +6,7 @@ Minimal API library (actually single class) to create PBM images either as plain
 
 You need to add the dependency
 ```aidl
-    "de.halcony"                 %% "scala-argparse"                % "(version)"
+    "de.halcony"                 %% "scala-pbm"                % "(version)"
 ```
 
 as well as the resolver
